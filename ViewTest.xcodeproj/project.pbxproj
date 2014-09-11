@@ -19,6 +19,7 @@
 		E82EEA4419C20D6200987AB1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E82EEA2C19C20D6200987AB1 /* UIKit.framework */; };
 		E82EEA4C19C20D6200987AB1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E82EEA4A19C20D6200987AB1 /* InfoPlist.strings */; };
 		E82EEA4E19C20D6200987AB1 /* ViewTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E82EEA4D19C20D6200987AB1 /* ViewTestTests.m */; };
+		E82EEA5919C20E6200987AB1 /* JPSimpleView.m in Sources */ = {isa = PBXBuildFile; fileRef = E82EEA5819C20E6200987AB1 /* JPSimpleView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +49,8 @@
 		E82EEA4919C20D6200987AB1 /* ViewTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ViewTestTests-Info.plist"; sourceTree = "<group>"; };
 		E82EEA4B19C20D6200987AB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		E82EEA4D19C20D6200987AB1 /* ViewTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewTestTests.m; sourceTree = "<group>"; };
+		E82EEA5719C20E6200987AB1 /* JPSimpleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JPSimpleView.h; sourceTree = "<group>"; };
+		E82EEA5819C20E6200987AB1 /* JPSimpleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JPSimpleView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +112,8 @@
 			children = (
 				E82EEA3719C20D6200987AB1 /* JPAppDelegate.h */,
 				E82EEA3819C20D6200987AB1 /* JPAppDelegate.m */,
+				E82EEA5719C20E6200987AB1 /* JPSimpleView.h */,
+				E82EEA5819C20E6200987AB1 /* JPSimpleView.m */,
 				E82EEA3A19C20D6200987AB1 /* Images.xcassets */,
 				E82EEA2F19C20D6200987AB1 /* Supporting Files */,
 			);
@@ -240,6 +245,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E82EEA5919C20E6200987AB1 /* JPSimpleView.m in Sources */,
 				E82EEA3919C20D6200987AB1 /* JPAppDelegate.m in Sources */,
 				E82EEA3519C20D6200987AB1 /* main.m in Sources */,
 			);
